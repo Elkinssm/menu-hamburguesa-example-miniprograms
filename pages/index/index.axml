@@ -1,0 +1,13 @@
+<view class="hamburger-menu">
+  <view class="hamburger-menu__icon" onTap="toggleMenu">
+    <view class="hamburger-menu__icon-line"></view>
+    <view class="hamburger-menu__icon-line"></view>
+    <view class="hamburger-menu__icon-line"></view>
+  </view>
+  <view class="hamburger-menu__content" hidden="{{!menuOpen}}">
+    <view class="hamburger-menu__item">Inicio</view>
+    <view class="hamburger-menu__item">Acerca de nosotros</view>
+    <view class="hamburger-menu__item">Productos</view>
+    <view class="hamburger-menu__item">Contacto</view>
+  </view>
+</view>
